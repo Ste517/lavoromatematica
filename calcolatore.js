@@ -1,0 +1,3 @@
+function calcola() {
+    document.getElementById("")
+}
