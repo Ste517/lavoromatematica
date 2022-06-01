@@ -1,10 +1,10 @@
 function calcola() {
     a = 0.7;
-    u = number(document.getElementById("u").value);
-    c = number(document.getElementById("c").value);
-    i = number(document.getElementById("i").value);
-    s = number(document.getElementById("s").value);
-    f = number(document.getElementById("f").value);
+    u = Number(document.getElementById("u").value);
+    c = Number(document.getElementById("c").value);
+    i = Number(document.getElementById("i").value);
+    s = Number(document.getElementById("s").value);
+    f = Number(document.getElementById("f").value);
 
     result = (a*(10-s)*(c+i+u))/(2*(1-Math.sin(f/10)));
 
